@@ -62,7 +62,7 @@ console.log(sunsetTime)
 App.innerHTML=`  
 
 <input type="text" class="search-bar">
-<button class="search" onClick="Click()">Search</button>
+<button class="search" onClick="Click()"><i class="bi bi-zoom-in"></i></button>
 <div class="city-name">
 <h2>${DataWeather.name}</h2>
 </div>
